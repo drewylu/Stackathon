@@ -74,6 +74,17 @@ export default class App extends React.Component {
               this.camera = ref;
             }}
           >
+            <Text
+              style={{
+                flex: 1,
+                alignSelf: 'center',
+                margin: 30,
+                color: '#fff',
+                backgroundColor: 'transparent',
+              }}
+            >
+              Dru's Text Scanner
+            </Text>
             <View
               style={{
                 flex: 1,
